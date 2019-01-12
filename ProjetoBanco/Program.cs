@@ -1,5 +1,7 @@
 ﻿using System;
 
+
+
 namespace ProjetoBanco
 {
     internal class Program
@@ -10,7 +12,6 @@ namespace ProjetoBanco
         static Program()
         {
             var cidade = new Cidade("Jundiaí", "SP");
-
             var endereco = new Endereco("Rua Gen. Osório", "Centro", "13219-000", 100, cidade);
 
             var cliente = new Cliente("Grillo", "12312312312", new DateTime(1985, 7, 2), endereco);
